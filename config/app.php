@@ -144,7 +144,7 @@ return [
 		'Cinema\Providers\ConfigServiceProvider',
 		'Cinema\Providers\EventServiceProvider',
 		'Cinema\Providers\RouteServiceProvider',
-
+		'Collective\Html\HtmlServiceProvider',
 	],
 
 	/*
@@ -192,7 +192,8 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-
+		'Form'      => 'Collective\Html\FormFacade',
+        'Html'      => 'Collective\Html\HtmlFacade',
 	],
 
 ];
